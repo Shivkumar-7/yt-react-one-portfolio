@@ -1,6 +1,11 @@
 import React from "react";
+import { FaLinkedin, FaGithub, FaEnvelope, FaInstagram } from "react-icons/fa";
 
 const Contact = () => {
+  const linkedin = () => window.open("https://www.linkedin.com/in/shiv-kumar-6ab079263/", "_blank");
+  const github = () => window.open("https://github.com/Shivkumar-7/Shivkumar-7", "_blank");
+  const instagram = () => window.open("https://instagram.com/shivthakur_292", "_blank");
+
   return (
     <div
       name="contact"
@@ -11,14 +16,20 @@ const Contact = () => {
           <p className="text-4xl font-bold inline border-b-4 border-gray-500">
             Contact
           </p>
-          <p className="py-6">Submit the form below to get in touch with me</p>
+          <p className="py-6 text-4xl font-bold text-teal-500">Let's Connect 🤝</p>
         </div>
 
-        <div className=" flex justify-center items-center">
+        <div className="flex space-x-6 mb-4">
+          <FaLinkedin onClick={linkedin} size={40} className="cursor-pointer hover:text-blue-600" />
+          <FaInstagram onClick={instagram} size={40} className="cursor-pointer hover:text-pink-500" />
+          <FaGithub onClick={github} size={40} className="cursor-pointer hover:text-gray-700" />
+        </div>
+
+        <div className="flex justify-center items-center">
           <form
             action="https://getform.io/f/61c99527-2b15-42cf-9b55-ad37d2f7daa6"
             method="POST"
-            className=" flex flex-col w-full md:w-1/2"
+            className="flex flex-col w-full md:w-1/2"
           >
             <input
               type="text"

@@ -13,25 +13,35 @@ const About = () => {
           </p>
         </div>
 
-        <p className="text-xl mt-20">
-          Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eius,
-          deserunt illum mollitia officiis qui exercitationem perferendis neque
-          quasi a recusandae necessitatibus tempora iusto! Blanditiis error
-          iste, totam fugiat recusandae rerum laborum perferendis molestiae
-          aperiam asperiores nemo. Magni dolor maxime debitis vitae, eaque hic
-          ab mollitia voluptatibus, a nostrum eveniet laborum!
-        </p>
+        <div className="text-xl mt-20 space-y-4">
+          <p className="bg-gray-700 p-4 rounded-lg shadow-md">
+            Hi Everyone, I am <span className="text-cyan-400 font-semibold">Shiv Kumar</span> from <span className="text-cyan-400 font-semibold">Aligarh, Uttar Pradesh, India</span>.
+            <br></br>
+            I am a Pre-final year student pursuing <span className="text-cyan-400 font-semibold">Bachelor of Technology</span> in <span className="text-cyan-400 font-semibold">Electronics and Communication Engineering</span> from the <span className="text-cyan-400 font-semibold">Institute of Engineering and Technology, Lucknow</span>.
+          </p>
 
-        <br />
+          <p className="bg-gray-700 p-4 rounded-lg shadow-md">
+            I have a good understanding of CS Fundamentals including:
+            <ul className="pl-8">
+              <li className="text-cyan-400">💡 Data Structures and Algorithms</li>
+              <li className="text-cyan-400">🗃️ Database Management System</li>
+              <li className="text-cyan-400">🧱 Object-Oriented Programming</li>
+              <li className="text-cyan-400">🖥️ Operating Systems</li>
+              <li className="text-cyan-400">🛠️ System Design</li>
+            </ul>
+          </p>
 
-        <p className="text-xl">
-          Lorem, ipsum dolor sit amet consectetur adipisicing elit. Laborum
-          pariatur, vel similique sint, nobis aspernatur ut praesentium
-          explicabo ipsam aliquid quasi laboriosam et culpa possimus repudiandae
-          quisquam ullam maiores ab unde. Fugiat odio mollitia nemo alias.
-          Commodi facilis atque nulla vero voluptatem explicabo. Quibusdam,
-          magni quo! Eum cupiditate debitis labore.
-        </p>
+          {/* <p className="bg-gray-700 p-4 rounded-lg shadow-md">
+            I am proficient in Web Development and actively participate in Competitive Programming contests on various platforms like:
+            <ul className="pl-8">
+              <li className="text-cyan-400 font-semibold">⚡ Codeforces</li>
+              <li className="text-cyan-400 font-semibold">🚀 Leetcode</li>
+              <li className="text-cyan-400 font-semibold">🏆 CodeChef</li>
+              <li className="text-cyan-400 font-semibold">🌍 AtCoder</li>
+            </ul>
+          </p> */}
+          
+        </div>
       </div>
     </div>
   );

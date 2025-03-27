@@ -1,9 +1,9 @@
 import React from "react";
-import { FaGithub, FaLinkedin } from "react-icons/fa";
+import { FaLinkedin, FaInstagram } from "react-icons/fa";
 import { HiOutlineMail } from "react-icons/hi";
 import { BsFillPersonLinesFill } from "react-icons/bs";
 
-const SocialLinks = () => {
+const Social = () => {
   const links = [
     {
       id: 1,
@@ -12,17 +12,17 @@ const SocialLinks = () => {
           LinkedIn <FaLinkedin size={30} />
         </>
       ),
-      href: "https://linkedin.com",
+      href: "https://www.linkedin.com/in/shiv-kumar-6ab079263/",
       style: "rounded-tr-md",
     },
     {
       id: 2,
       child: (
         <>
-          GitHub <FaGithub size={30} />
+          Instagram <FaInstagram size={30} />
         </>
       ),
-      href: "https://github.com/theyashpatel",
+      href: "https://instagram.com/shivthakur_292",
     },
     {
       id: 3,
@@ -31,7 +31,7 @@ const SocialLinks = () => {
           Mail <HiOutlineMail size={30} />
         </>
       ),
-      href: "mailto:foo@gmail.com",
+      href: "mailto:kumar00shiv00k123@gmail.com",
     },
     {
       id: 4,
@@ -74,4 +74,4 @@ const SocialLinks = () => {
   );
 };
 
-export default SocialLinks;
+export default Social;
